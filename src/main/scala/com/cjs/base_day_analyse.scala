@@ -113,8 +113,7 @@ object base_day_analyse {
                 var formatDeepInRate = f"${deepInRate%1.2f}"
 
                 var dayString =
-                    s"""{"time":${time1},"jump_out_rate":${formatJumpRate},"deep_in_rate":${formatDeepInRate},"avg_stay_time":${avgStayTime},"new_num":${newCustomerNum},"old_num":${oldCustomerNum},"customer_num":${visitNum}}\n
-                    """.stripMargin
+                    s"""{"time":${time1},"jump_out_rate":${formatJumpRate},"deep_in_rate":${formatDeepInRate},"avg_stay_time":${avgStayTime},"new_num":${newCustomerNum},"old_num":${oldCustomerNum},"customer_num":${visitNum}}\n""".stripMargin
 
                 resultStr += dayString
 
